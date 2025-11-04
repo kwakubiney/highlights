@@ -83,7 +83,7 @@ export default function Home() {
                 value={selectedBook}
                 onChange={e => setSelectedBook(e.target.value)}
               >
-                <option value="all">All Books ({highlights.length})</option>
+                <option value="all">All {books.length} Books</option>
                 {books.map(book => (
                   <option key={book} value={book}>{book} ({highlights.filter(h => h.bookTitle === book).length})</option>
                 ))}
