@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+
+# Next.js
+.next/
+out/
+.next/dev/
+.next/static/
+.next/cache/
+
+# Site build artifacts
+/site/.next/
+
+# Python
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment files
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+coverage/
+*.cover
+*.tmp
+.DS_Store
+
+# Local system files
+Thumbs.db
+
+# npm/yarn lockfiles (optional — remove if you want to track lockfiles)
+# package-lock.json
+# yarn.lock
