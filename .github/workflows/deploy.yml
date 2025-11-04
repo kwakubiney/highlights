@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -32,8 +33,6 @@ jobs:
 
       - name: Build with Next.js
         run: npm run build
-        env:
-          NEXT_PUBLIC_BASE_PATH: /highlights
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
