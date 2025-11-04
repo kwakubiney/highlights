@@ -16,8 +16,6 @@ out/
 .next/cache/
 .turbo/
 
-# Public generated files (exported highlights)
-public/highlights.json
 
 # Python
 .venv/
