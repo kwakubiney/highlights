@@ -4,8 +4,8 @@ export default function Home() {
   const [highlights, setHighlights] = useState([]);
   const [query, setQuery] = useState("");
   const [selectedBook, setSelectedBook] = useState("all");
-  const [currentPage, setCurrentPage] = useState(1);
-  const highlightsPerPage = 20;
+  const [displayCount, setDisplayCount] = useState(20);
+  const highlightsPerLoad = 20;
 
   useEffect(() => {
     const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -25,13 +25,11 @@ export default function Home() {
     })
     .sort((a, b) => b.createdDate - a.createdDate);
 
-  const totalPages = Math.ceil(filtered.length / highlightsPerPage);
-  const indexOfLastHighlight = currentPage * highlightsPerPage;
-  const indexOfFirstHighlight = indexOfLastHighlight - highlightsPerPage;
-  const currentHighlights = filtered.slice(indexOfFirstHighlight, indexOfLastHighlight);
+  const visibleHighlights = filtered.slice(0, displayCount);
+  const hasMore = displayCount < filtered.length;
 
   useEffect(() => {
-    setCurrentPage(1);
+    setDisplayCount(20);
   }, [query, selectedBook]);
 
   const getColorTag = (colorCode) => {
@@ -50,6 +48,10 @@ export default function Home() {
     const appleEpoch = new Date(2001, 0, 1).getTime();
     const date = new Date(appleEpoch + timestamp * 1000);
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  };
+
+  const loadMore = () => {
+    setDisplayCount(prev => prev + highlightsPerLoad);
   };
 
   return (
@@ -104,7 +106,7 @@ export default function Home() {
           </div>
         </div>
 
-        {currentHighlights.map((h, i) => {
+        {visibleHighlights.map((h, i) => {
           const colorTag = getColorTag(h.color);
           return (
             <div key={i} style={{ background: "white", borderRadius: "12px", padding: "1rem", marginBottom: "0.75rem", boxShadow: "0 1px 3px rgba(0,0,0,0.1)", border: "1px solid #e2e8f0", position: "relative", transition: "all 0.2s ease" }}
@@ -139,30 +141,34 @@ export default function Home() {
           </div>
         )}
 
-        {totalPages > 1 && (
-          <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "0.25rem", marginTop: "1.5rem", padding: "1rem 0.5rem", flexWrap: "wrap" }}>
-            <button onClick={() => setCurrentPage(p => Math.max(1, p - 1))} disabled={currentPage === 1}
-              style={{ padding: "0.5rem 0.75rem", border: "1px solid #e2e8f0", borderRadius: "8px", background: currentPage === 1 ? "#f8fafc" : "white", color: currentPage === 1 ? "#94a3b8" : "#334155", cursor: currentPage === 1 ? "not-allowed" : "pointer", fontWeight: "500", fontSize: "0.75rem", transition: "all 0.2s" }}>
-              ← Prev
-            </button>
-            <div style={{ display: "flex", gap: "0.125rem", alignItems: "center", margin: "0 0.5rem" }}>
-              {[...Array(totalPages)].map((_, idx) => {
-                const pageNum = idx + 1;
-                const showPage = pageNum === 1 || pageNum === totalPages || Math.abs(pageNum - currentPage) <= 1;
-                const showEllipsis = (pageNum === 2 && currentPage > 3) || (pageNum === totalPages - 1 && currentPage < totalPages - 2);
-                if (showEllipsis) return (<span key={pageNum} style={{ padding: "0 0.25rem", color: "#94a3b8", fontSize: "0.75rem" }}>•</span>);
-                if (!showPage) return null;
-                return (
-                  <button key={pageNum} onClick={() => setCurrentPage(pageNum)}
-                    style={{ padding: "0.4rem 0.6rem", border: "1px solid #e2e8f0", borderRadius: "6px", background: currentPage === pageNum ? "#3b82f6" : "white", color: currentPage === pageNum ? "white" : "#334155", cursor: "pointer", fontWeight: currentPage === pageNum ? "600" : "500", fontSize: "0.7rem", minWidth: "2rem", transition: "all 0.2s" }}>
-                    {pageNum}
-                  </button>
-                );
-              })}
-            </div>
-            <button onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))} disabled={currentPage === totalPages}
-              style={{ padding: "0.5rem 0.75rem", border: "1px solid #e2e8f0", borderRadius: "8px", background: currentPage === totalPages ? "#f8fafc" : "white", color: currentPage === totalPages ? "#94a3b8" : "#334155", cursor: currentPage === totalPages ? "not-allowed" : "pointer", fontWeight: "500", fontSize: "0.75rem", transition: "all 0.2s" }}>
-              Next →
+        {hasMore && (
+          <div style={{ display: "flex", justifyContent: "center", marginTop: "1.5rem", paddingBottom: "1rem" }}>
+            <button 
+              onClick={loadMore}
+              style={{ 
+                padding: "0.75rem 2rem", 
+                border: "1px solid #e2e8f0", 
+                borderRadius: "8px", 
+                background: "white", 
+                color: "#334155", 
+                cursor: "pointer", 
+                fontWeight: "500", 
+                fontSize: "0.875rem", 
+                transition: "all 0.2s",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
+              }}
+              onMouseEnter={(e) => { 
+                e.target.style.background = "#3b82f6"; 
+                e.target.style.color = "white"; 
+                e.target.style.borderColor = "#3b82f6";
+              }}
+              onMouseLeave={(e) => { 
+                e.target.style.background = "white"; 
+                e.target.style.color = "#334155";
+                e.target.style.borderColor = "#e2e8f0";
+              }}
+            >
+              Load More ({filtered.length - displayCount} remaining)
             </button>
           </div>
         )}
