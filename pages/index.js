@@ -43,15 +43,15 @@ export default function Home() {
   };
 
   return (
-    <div style={{ minHeight: "100vh", background: "#f8fafc", padding: "1rem 1rem 4rem 1rem" }}>
+    <div style={{ minHeight: "100vh", background: "#f8fafc", padding: "1rem 1rem 4rem 1rem", overflowX: "hidden" }}>
       <div style={{ maxWidth: "1000px", margin: "0 auto", fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif" }}>
         {/* Header - Sticky on mobile */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1.5rem", padding: "0.75rem 0", position: "sticky", top: 0, background: "#f8fafc", zIndex: 10 }}>
           <div>
-            <h1 style={{ fontSize: "clamp(1.5rem, 5vw, 1.875rem)", fontWeight: "700", margin: "0 0 0.25rem 0", color: "#0f172a" }}>
-              📚 Highlights
+            <h1 style={{ fontSize: "clamp(1.25rem, 4vw, 1.5rem)", fontWeight: "600", margin: "0 0 0.25rem 0", color: "#0f172a" }}>
+              Kwaku's Highlights
             </h1>
-            <p style={{ margin: "0", color: "#64748b", fontSize: "0.75rem" }}>
+            <p style={{ margin: "0", color: "#64748b", fontSize: "0.7rem" }}>
               {filtered.length} highlight{filtered.length !== 1 ? 's' : ''} • {books.length} book{books.length !== 1 ? 's' : ''}
             </p>
           </div>
@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
                 <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", flexWrap: "wrap" }}>
                   <span style={{ background: colorTag.bg, color: colorTag.text, padding: "0.25rem 0.5rem", borderRadius: "6px", fontSize: "0.7rem", fontWeight: "600", whiteSpace: "nowrap" }}>{colorTag.label}</span>
-                  {h.note && (<span data-note-indicator style={{ background: "#eff6ff", color: "#1e40af", padding: "0.25rem 0.5rem", borderRadius: "6px", fontSize: "0.85rem", transition: "transform 0.2s", cursor: "default" }} title="Has note">💭 Note</span>)}
+                  {h.note && (<span data-note-indicator style={{ background: "#eff6ff", color: "#1e40af", padding: "0.25rem 0.5rem", borderRadius: "6px", fontSize: "0.75rem", fontWeight: "500" }} title="Has note">Note</span>)}
                 </div>
               </div>
               <p style={{ fontSize: "clamp(0.875rem, 2vw, 1rem)", lineHeight: "1.6", color: "#334155", margin: "0.75rem 0 0 0", fontWeight: "400" }}>"{h.highlight}"</p>
@@ -124,8 +124,7 @@ export default function Home() {
 
         {filtered.length === 0 && (
           <div style={{ background: "white", borderRadius: "12px", padding: "2rem 1rem", textAlign: "center", color: "#64748b", border: "1px solid #e2e8f0" }}>
-            <div style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>🔍</div>
-            <p style={{ margin: "0", fontSize: "1rem" }}>No highlights found matching your filters</p>
+            <p style={{ margin: "0", fontSize: "0.95rem" }}>No highlights found matching your filters</p>
           </div>
         )}
 
