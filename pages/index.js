@@ -45,7 +45,10 @@ export default function Home() {
   };
 
   const formatDate = (timestamp) => {
-    const date = new Date(timestamp * 1000);
+    // Apple Books stores dates as seconds since 2001-01-01 (macOS/Apple reference time)
+    // Convert to milliseconds since Unix epoch (1970-01-01)
+    const appleEpoch = new Date(2001, 0, 1).getTime();
+    const date = new Date(appleEpoch + timestamp * 1000);
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
   };
 
