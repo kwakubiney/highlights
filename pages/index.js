@@ -16,12 +16,14 @@ export default function Home() {
 
   const books = [...new Set(highlights.map(h => h.bookTitle))].sort();
 
-  const filtered = highlights.filter(h => {
-    const matchesSearch = h.highlight.toLowerCase().includes(query.toLowerCase()) ||
-                         (h.note && h.note.toLowerCase().includes(query.toLowerCase()));
-    const matchesBook = selectedBook === "all" || h.bookTitle === selectedBook;
-    return matchesSearch && matchesBook;
-  });
+  const filtered = highlights
+    .filter(h => {
+      const matchesSearch = h.highlight.toLowerCase().includes(query.toLowerCase()) ||
+                           (h.note && h.note.toLowerCase().includes(query.toLowerCase()));
+      const matchesBook = selectedBook === "all" || h.bookTitle === selectedBook;
+      return matchesSearch && matchesBook;
+    })
+    .sort((a, b) => b.createdDate - a.createdDate);
 
   const totalPages = Math.ceil(filtered.length / highlightsPerPage);
   const indexOfLastHighlight = currentPage * highlightsPerPage;
@@ -40,6 +42,11 @@ export default function Home() {
       4: { bg: "#fed7aa", text: "#9a3412", label: "Orange" },
     };
     return colors[colorCode] || colors[4];
+  };
+
+  const formatDate = (timestamp) => {
+    const date = new Date(timestamp * 1000);
+    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
   };
 
   return (
@@ -107,9 +114,10 @@ export default function Home() {
                     <p style={{ margin: "0", fontSize: "0.75rem", color: "#64748b" }}>{h.author}</p>
                   )}
                 </div>
-                <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", flexWrap: "wrap" }}>
+              <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", flexWrap: "wrap" }}>
                   <span style={{ background: colorTag.bg, color: colorTag.text, padding: "0.25rem 0.5rem", borderRadius: "6px", fontSize: "0.7rem", fontWeight: "600", whiteSpace: "nowrap" }}>{colorTag.label}</span>
                   {h.note && (<span data-note-indicator style={{ background: "#eff6ff", color: "#1e40af", padding: "0.25rem 0.5rem", borderRadius: "6px", fontSize: "0.75rem", fontWeight: "500" }} title="Has note">Note</span>)}
+                  <span style={{ color: "#94a3b8", fontSize: "0.7rem", marginLeft: "auto" }}>{formatDate(h.createdDate)}</span>
                 </div>
               </div>
               <p style={{ fontSize: "clamp(0.875rem, 2vw, 1rem)", lineHeight: "1.6", color: "#334155", margin: "0.75rem 0 0 0", fontWeight: "400" }}>"{h.highlight}"</p>
