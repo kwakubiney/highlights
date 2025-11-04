@@ -14,9 +14,10 @@ out/
 .next/dev/
 .next/static/
 .next/cache/
+.turbo/
 
-# Site build artifacts
-/site/.next/
+# Public generated files (exported highlights)
+public/highlights.json
 
 # Python
 .venv/

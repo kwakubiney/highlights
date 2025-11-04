@@ -8,7 +8,8 @@ export default function Home() {
   const highlightsPerPage = 20;
 
   useEffect(() => {
-    fetch("/highlights.json")
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    fetch(`${basePath}/highlights.json`)
       .then(res => res.json())
       .then(setHighlights);
   }, []);

@@ -59,7 +59,7 @@ def extract_highlights():
 
     # Get the path relative to this script's location
     script_dir = Path(__file__).parent
-    output_path = script_dir.parent / "site" / "public" / "highlights.json"
+    output_path = script_dir / "public" / "highlights.json"
     
     with open(output_path, "w") as f:
         json.dump(highlights, f, indent=2, ensure_ascii=False)
