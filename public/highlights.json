@@ -216,6 +216,102 @@
     "createdDate": 681771098.887433
   },
   {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "We build elaborate mathematical models and design computer simulations to play out our projections. Yet we don’t know how the parts evolved! How can we hope to understand disease if we have no idea why cells work the way they do?",
+    "note": null,
+    "color": 3,
+    "createdDate": 784385071.541279
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "The exact sequences of these genes ultimately gave the game away – plainly, mitochondria and chloroplasts do derive from bacteria. But notice I say ‘derive’. They are no longer bacteria, and don’t have any real independence, as the vast majority of the genes needed for their existence (at least 1,500 of them) are found in the nucleus, the genetic ‘control centre’ of the cell.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784385520.207438
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "Revolution number two was the phylogenetic revolution – the ancestry of genes. The possibility had been anticipated by Francis Crick as early as 1958. With characteristic aplomb, he wrote: ‘Biologists should realise that before long we shall have a subject which might be called “protein taxonomy” – the study of amino acid sequences of proteins of an organism and the comparison of them between species. It can be argued that these sequences are the most delicate expression possible of the phenotype of an organism and that vast amounts of evolutionary information may be hidden away within them.’ And lo, it came to pass. Biology is now very much about the information concealed in the sequences of proteins and genes.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784385659.064271
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "The scarred revolutionary was Carl Woese. In work beginning quietly in the 1960s and not bearing fruit until a decade later, Woese selected a single gene to compare between species. Obviously, the gene had to be present in all species. What’s more, it had to serve the same purpose. That purpose had to be so fundamental, so important to the cell, that even slight changes in its function would be penalised by natural selection. If most changes are eliminated, what remains must be relatively unchanging – evolving extremely slowly, and changing little over vast periods of time. That’s necessary if we want to compare the differences that accumulate between species over literally billions of years, to build a great tree of life, going back to the beginning.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784385740.439157
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": " Ribosomes are orders of magnitude smaller still. You have 13 million of them in a single cell from your liver. But ribosomes are not only incomprehensibly small; on the scale of atoms, they are massive, sophisticated superstructures.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784385874.03549
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "They draw in the ‘tickertape’ code-script that encodes a protein, and translate its sequence precisely, letter by letter, into the protein itself. To do so, they recruit all the building blocks (amino acids) needed, and link them together into a long chain, their order specified by the code-script.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784385892.442421
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "This radical proposition – complex life arose from a singular endosymbiosis between an archaeon host cell and the bacteria that became mitochondria – was predicted by the brilliantly intuitive and free-thinking evolutionary biologist Bill Martin, in 1998, on the basis of the extraordinary mosaic of genes in eukaryotic cells, a mosaic largely uncovered by Martin himself.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784386530.435422
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "The salient point is: Martin predicted that complex life arose through a singular endosymbiosis between two cells only. He predicted that the host cell was an archaeon, lacking the baroque complexity of eukaryotic cells. He predicted that there never was an intermediate, simple eukaryotic cell, which lacked mitochondria; the acquisition of mitochondria and the origin of complex life was one and the same event.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784386772.9719
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "And he predicted that all the elaborate traits of complex cells, from the nucleus to sex to phagocytosis, evolved after the acquisition of mitochondria, in the context of that unique endosymbiosis. This is one of the finest insights in evolutionary biology, and deserves to be much better known.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784386832.733886
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "We know that the traits of complex life arose in the aftermath of this union; but we still do not know why those particular traits arose in eukaryotes, while showing no signs of evolving in either bacteria or archaea. We don’t know what forces constrain bacteria and archaea – why they remain morphologically simple, despite being so different in their biochemistry, so varied in their genes, so versatile in their ability to extract a living from gases and rocks. What we do have is a radical new framework in which to approach the problem.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784386932.336431
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "I believe the clue lies in the bizarre mechanism of biological energy generation in cells. This strange mechanism exerts pervasive but little appreciated physical constraints on cells. Essentially all living cells power themselves through the flow of protons (positively charged hydrogen atoms), in what amounts to a kind of electricity – proticity – with protons in place of electrons. The energy we gain from burning food in respiration is used to pump protons across a membrane, forming a reservoir on one side of the membrane. The flow of protons back from this reservoir can be used to power work in the same way as a turbine in a hydroelectric dam.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784387067.291372
+  },
+  {
+    "bookTitle": "The Vital Question",
+    "author": "Nick Lane",
+    "highlight": "So it seems to me there are two big unknowns at the very heart of biology today: why life evolved in the perplexing way it did, and why cells are powered in such a peculiar fashion.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784387123.852532
+  },
+  {
     "bookTitle": "Complications: A Surgeon's Notes on an Imperfect Science",
     "author": "Atul Gawande",
     "highlight": "It’s all stark confirmation that you can’t train novices without compromising patient care.",
@@ -1822,6 +1918,86 @@
     "note": null,
     "color": 3,
     "createdDate": 784335549.43144
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "The Apple team kept pushing LG to try different things, to experiment using tools in novel ways—anything to make assembly work, but all attempts were failing. “We were doing tooling on things that just had never been done before—for injection molding parts,” Hoenig says. “I mean, just never.” He was worried about pushing too hard, creating even greater risks of production",
+    "note": null,
+    "color": 3,
+    "createdDate": 784375711.806888
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "By the time Steve Jobs was ready to unveil the iMac to the world, the factory in Gumi was not at all production-ready. So the first models Jobs had shown on stage were handcrafted by Apple’s ID team in Korea. “There was only two or three of them,” says Jon Rubinstein, the head of hardware whom ID reported into at the time. “One of the guys sat in the bathtub and hand-did the surface because it’s a disgusting mess—you just get plastic everywhere.”\n\n",
+    "note": null,
+    "color": 3,
+    "createdDate": 784375732.376165
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "The success of the iMac gave Apple a problem it hadn’t experienced in years: overwhelming demand. It now sought to pay more attention to the efficiency of its production and day-to-day operations. These were the things that Gil Amelio had tried to improve, but he’d had the sequence backward: First Apple needed a hit product; only then could it focus on how to manufacture more efficiently",
+    "note": null,
+    "color": 3,
+    "createdDate": 784375758.204494
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": " Instead of having LG build the CRT and ship it to Apple—which by late 1998 was assembling iMacs in Singapore, Sacramento, and Ireland—Apple began to take its own factories out of the equation. It cut 350 manufacturing jobs in California and slashed 450 positions in Ireland. In one sense, that shift wasn’t itself massive, as LG’s work making the CRT already represented close to 90 percent of the iMac’s assembly. But it was a milestone shift in strategy. Apple, for its most successful Mac ever, was fully committing to managing outsourcers rather than building anything itself.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784375825.387322
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "The ambitious plan called for LG to “produce semiconductors, monitors, color picture tubes, color display tubes, and other television and monitor components, to be sold in Britain, Europe and North America.” LG wanted to rival Samsung, and international expansion was core to the effort",
+    "note": null,
+    "color": 3,
+    "createdDate": 784375945.671712
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "Meanwhile, LG’s broader experience in Wales was proving disastrous. LG abandoned efforts to fabricate semiconductors after chip prices fell, and its long-term hopes for CRT monitors fell into disarray as flat-panel TVs appeared in the market, causing the price of CRTs to collapse. After just a year, iMac production was halted entirely, never to resume.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784375968.30939
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "LG had taken a high-and-mighty attitude at exactly the wrong time. As the sole manufacturer for America’s bestselling computer, LG believed it had leverage to exert against Apple. But its factory in Wales never left the hand-holding stage, and though Mexicali was better, it certainly wasn’t living up to Cupertino’s demands. So as Apple tried to get lower prices as volumes ramped up, LG stood firm.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784375999.773549
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "The Korean group had been intimately involved not just in building the iMac at scale, but also in working with Apple’s engineers on the design. And because Apple was in such a rush to get the first version of iMac out, it was LG—not Apple—that had much of the documentation on how to actually build the computer. But LG forgot the first rule of contract manufacturing: The client comes first. Instead, it tried to use its position as a strength. “They sunk their own grave with the negotiation piece, trying to leverage it,” says an Apple engineer, calling negotiations at the time challenging. “It was horrifically documented—the product itself was coming out of LG. So LG had all the specs, all the schematics, all the part files, everything.” LG had played such a role creating the computer that a senior executive in Korea publicly said his company had basically designed it. Steve Jobs, deeply protective of the ID team, demanded a retraction.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784376031.70688
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "But LG didn’t know two things. One is that Apple’s Industrial Design studio had, by March 1999, revamped every aspect of the iMac design to lower the cost, beautify the design, and take greater ownership of the intellectual property. The first-generation iMac had used textured plastic to create only a semi-translucent shell—deliberately obscuring some of the uglier aspects of the guts inside. It had big and awkward vertically printed circuit boards on both sides of the CRT, and three rows of perforated holes above the handle. It also had a fan, which created some acoustic noise. The second generation had a much cleaner look.",
+    "note": null,
+    "color": 3,
+    "createdDate": 784376118.397646
+  },
+  {
+    "bookTitle": "Apple in China",
+    "author": "Patrick McGee",
+    "highlight": "No country was more important to Apple than Taiwan in the first five years of Steve Jobs’s comeback. While the iMac was built out of Korea by LG and the lower-volume PowerMac G3 and G4 desktop computers were assembled by Apple in California and Singapore, the other two product lines in the “quadrant strategy”—the entry-level iBook and the PowerBook—were assembled in Taiwan",
+    "note": null,
+    "color": 3,
+    "createdDate": 784376169.444912
   },
   {
     "bookTitle": "Being Mortal",
