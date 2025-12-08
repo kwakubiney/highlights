@@ -938,14 +938,6 @@
   {
     "bookTitle": "A Brief History of Intelligence",
     "author": "Max Bennett",
-    "highlight": "All this describes what bodies do in response to short-term stressors—the acute stress response. But most of the ways that stress plagues modern humanity comes from what happens to bodies in response to prolonged stressors—the chronic stress response. This, too, has origins in the first bilaterians. If a nematode is exposed to thirty minutes of a negative stimulus (such as dangerous heat, freezing cold, or toxic chemicals), at first it will exhibit the hallmarks of the acute stress response—it will try to escape, and stress hormones will pause bodily functions. But after just two minutes of no relief from this inescapable stressor, nematodes do something surprising: they give up. The worm stops moving; it stops trying to escape and just lies there. This surprising behavior is, in fact, quite clever: spending energy escaping is worth the cost only if the stimulus is in fact escapable. Otherwise, the worm is more likely to survive if it conserves energy by waiting. Evolution embedded an ancient biochemical failsafe to ensure that an organism did not waste energy trying to escape something that was inescapable; this failsafe was the early seed of chronic stress and depression.",
-    "note": null,
-    "color": 1,
-    "createdDate": 786308916.17512
-  },
-  {
-    "bookTitle": "A Brief History of Intelligence",
-    "author": "Max Bennett",
     "highlight": "Repeatedly flooding the brain with opioids creates a state of chronic stress when the drug wears off—adaptation is unavoidable. This then traps opioid users in a vicious cycle of relief, adaptation, chronic stress requiring more drugs to get back to baseline, which causes more adaptation and thereby more chronic stress. Evolutionary constraints cast a long shadow on modern humanity.",
     "note": null,
     "color": 1,
@@ -1006,6 +998,326 @@
     "note": null,
     "color": 1,
     "createdDate": 786318703.294909
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "When an animal gets food, there is never a single predictive cue beforehand but rather a whole swath of cues. If you pair a tap to the side of a slug with a shock, how does a slug’s brain know to associate only the tap with the shock and not the many other sensory stimuli that were present, such as the surrounding temperature, the texture of the ground, or the diverse chemicals floating around the seawater? In machine learning, this is called the credit assignment problem",
+    "note": null,
+    "color": 1,
+    "createdDate": 786551149.388709
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "But the remnants of the first solutions—eligibility traces, overshadowing, latent inhibition, and blocking—still exist in modern brains.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786551293.891889
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The discovery of the connections between neurons—synapses—was the most obvious new thing that could presumably change in the brain during learning. Indeed, it turns out that learning rises not from impressions, folds, or vibrations but from changes to these synaptic connections.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786551486.756344
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Hebbian learning is often referred to as the rule that “neurons that fire together wire together.”",
+    "note": null,
+    "color": 1,
+    "createdDate": 786551550.678069
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "And while many neurological changes occurred across this transition, a surprisingly broad set of them can be understood through the lens of enabling a singular breakthrough: that of navigating by steering.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786555836.956759
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": " Fish can remember how to do these tasks for months or even years after being trained. The process of learning is the same in all these tests: fish try some relatively random actions and then progressively refine their behavior depending on what gets reinforced.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786583289.97646
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Thorndike’s trial and error learning often goes by another name: reinforcement learning.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786583434.394933
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The second breakthrough was reinforcement learning: the ability to learn arbitrary sequences of actions through trial and error. Thorndike’s idea of trial-and-error learning sounds so simple—reinforce behaviors that lead to good things and punish behaviors that lead to bad things.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786583491.713495
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Evolution embedded an ancient biochemical failsafe to ensure that an organism did not waste energy trying to escape something that was inescapable; this failsafe was the early seed of chronic stress and depression.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786584790.643716
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "He created an artificial neural network with forty connections and trained it to navigate through various mazes. The training process was simple: whenever his system successfully got out of the maze, he strengthened the recently activated synapses. ",
+    "note": null,
+    "color": 1,
+    "createdDate": 786740522.801076
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Presumably, if it played enough games of checkers, it should get better. But here’s the problem: The reinforcements and punishments in a game of checkers—the outcome of winning or losing—occur only at the end of the game.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786740581.86515
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "When a light and a sound both occur alongside food, which stimulus should get associated with food? We already reviewed tricks that simple bilaterians use to decide this: overshadowing (choosing the strongest stimulus), latent inhibition (choosing the novel stimulus), and blocking (choosing what has been associated before).",
+    "note": null,
+    "color": 1,
+    "createdDate": 786740670.579109
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Minsky realized that reinforcement learning would not work without a reasonable strategy for assigning credit across time; this is called the temporal credit assignment problem.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786740745.318012
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "An alternative solution is to reinforce all the prior moves at the end of a winning game (or conversely, punish all the prior moves at the end of a losing game).",
+    "note": null,
+    "color": 1,
+    "createdDate": 786740864.141515
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Sutton proposed a simple but radical idea. Instead of reinforcing behaviors using actual rewards, what if you reinforced behaviors using predicted rewards? Put another way: Instead of rewarding an AI system when it wins, what if you reward it when the AI system thinks it is winning?",
+    "note": null,
+    "color": 1,
+    "createdDate": 786741133.112398
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The actor, on the other hand, chooses what action to take and gets rewarded not at the end of the game but whenever the critic thinks that the actor’s move increased the likelihood of winning. ",
+    "note": null,
+    "color": 1,
+    "createdDate": 786741207.617624
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "In his simulations, however, Sutton found that by training an actor and a critic simultaneously, a magical bootstrapping occurs between them.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786741467.756824
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The dopamine responses that Schultz found in monkeys aligned exactly with Sutton’s temporal difference learning signal. Dopamine neurons in Schultz’s monkeys got excited by predictive cues because these cues led to an increase in predicted future rewards (a positive temporal difference); dopamine neurons were unaffected by the delivery of an expected reward because there was no change in predicted future reward (no temporal difference); and dopamine-neuron activity decreased when expected rewards were omitted because there was a decrease in",
+    "note": null,
+    "color": 1,
+    "createdDate": 786741802.7242
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "predicted future rewards (a negative temporal difference).",
+    "note": null,
+    "color": 1,
+    "createdDate": 786741828.902065
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Dopamine is not a signal for reward but for reinforcement. As Sutton found, reinforcement and reward must be decoupled for reinforcement learning to work. To solve the temporal credit assignment problem, brains must reinforce behaviors based on changes in predicted future rewards, not actual rewards. This is why animals get addicted to dopamine-releasing behaviors despite it not being pleasurable, and this is why dopamine responses quickly shift their activations to the moments when animals predict upcoming reward and away from rewards themselves.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786746739.413107
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "dopamine was transformed from a good-things-are-nearby signal to a there-is-a-35 percent-chance-of-something-awesome-happening-in-exactly-ten-seconds signal.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786746838.533105
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The basal ganglia is, in part, Sutton’s “actor”—a system designed to repeat behaviors that lead to reinforcement and inhibit behaviors that lead to punishment.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786747411.689757
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "One leading theory of basal ganglia function is that these parallel circuits are literally Sutton’s actor-critic system for implementing temporal difference learn",
+    "note": null,
+    "color": 1,
+    "createdDate": 786747511.349207
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "In our metaphor, the basal ganglian student initially learns solely from the hypothalamic judge, but over time learns to judge itself, knowing when it makes a mistake before the hypothalamus gives any feedback.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786747553.503177
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "When you recognize that a plate is too hot or a needle too sharp, you are recognizing attributes of the world the way early bilaterians did, with the activations of individual neurons. However, when you recognize a smell, a face, or a sound, you are recognizing things in the world in a way that was beyond early bilaterians; you are using a skill that emerged later in early vertebrates.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786747978.175474
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This was the first problem of pattern recognition, that of discrimination:",
+    "note": null,
+    "color": 1,
+    "createdDate": 786748107.060333
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This is the second challenge of pattern recognition: how to generalize a previous pattern to recognize novel patterns that are similar but not the same.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786748183.229611
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "They called this learning mechanism backpropagation: they propagate the error at the end back throughout the entire network, calculate the exact error contribution of each synapse, and nudge that synapse accordingly.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786748435.098746
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "when you train a neural network to recognize a new pattern or perform a new task, you risk interfering with the network’s previously learned patterns.",
+    "note": null,
+    "color": 1,
+    "createdDate": 786748911.676782
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "His architecture first decomposed input pictures into multiple feature maps, like V1 seemed to do. Each feature map was a grid that signaled the location of a feature—such as vertical or horizontal lines—within the input picture. This process is called a convolution, hence the name applied to the type of network that Fukushima had invented: convolutional neural networks.*",
+    "note": null,
+    "color": 1,
+    "createdDate": 786750361.811327
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "All this was designed to be analogous to the visual processing of the mammalian cortex. And, amazingly, it worked.\n",
+    "note": null,
+    "color": 1,
+    "createdDate": 786750426.72584
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "One explanation for this is that vertebrates get an extra boost of reinforcement when something is surprising. To make animals curious, we evolved to find surprising and novel things reinforcing, which drives us to pursue and explore them. This means that even if the reward of an activity is negative, if it is novel, we might pursue it anyway.",
+    "note": null,
+    "color": 4,
+    "createdDate": 786833012.538883
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "But the construction of this internal model laid the foundation for the next breakthrough in brain evolution. What began as a trick for remembering locations would go on to become much more.",
+    "note": null,
+    "color": 4,
+    "createdDate": 786833521.668842
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Dopamine became a temporal difference learning signal, which helped solve the temporal credit assignment problem and enabled animals to learn through trial and error.",
+    "note": null,
+    "color": 4,
+    "createdDate": 786833821.150237
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The basal ganglia emerged as an actor-critic system, enabling animals to generate this dopamine signal by predicting future rewards and to use this dopamine signal to reinforce and punish behaviors.",
+    "note": null,
+    "color": 4,
+    "createdDate": 786833826.205189
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Curiosity emerged as a necessary part of making reinforcement learning work (solving the exploration-exploitation dilemma).",
+    "note": null,
+    "color": 4,
+    "createdDate": 786833831.4969
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The cortex emerged as an auto-associative network, making pattern recognition possible.",
+    "note": null,
+    "color": 4,
+    "createdDate": 786833834.792058
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The perception of precise timing emerged, enabling animals to learn,",
+    "note": "",
+    "color": 4,
+    "createdDate": 786833966.57688
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The perception of three-dimensional space emerged (in the hippocampus and other structures), enabling animals to recognize where they were and remember the location of things relative to other things.",
+    "note": null,
+    "color": 4,
+    "createdDate": 786833980.672045
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Steering bilaterians made it possible for later vertebrates to learn through trial and error. And trial and error in vertebrates, in turn, made it possible for the even more perplexing and monumental breakthrough that would follow. It was early mammals who first figured out how to engage in a different flavor of trial and error: learning not by doing but by imagining.",
+    "note": null,
+    "color": 4,
+    "createdDate": 786834108.472011
   },
   {
     "bookTitle": "Chip War",
