@@ -354,14 +354,6 @@
   {
     "bookTitle": "Do No Harm: Stories of Life, Death, and Brain Surgery",
     "author": "Henry Marsh",
-    "highlight": "Sometimes, if the dissection is particularly difficult and intense, or dangerous, I will pause for a while, rest my hands on the arm-rests, and look at the brain I am operating on. Are the thoughts that I am thinking as I look at this solid lump of fatty protein covered in blood vessels really made out of the same stuff? And the answer always comes back – they are – and the thought itself is too crazy, too incomprehensible, and I get on with the operation.",
-    "note": null,
-    "color": 1,
-    "createdDate": 785442281.986423
-  },
-  {
-    "bookTitle": "Do No Harm: Stories of Life, Death, and Brain Surgery",
-    "author": "Henry Marsh",
     "highlight": "But to my horror I find that this second applicator has an even more deadly fault than the first: having closed the clip over the aneurysm the applicator refuses to release the clip. I cannot move my hand for fear of tearing the minute, fragile aneurysm off the middle cerebral artery and causing a catastrophic haemorrhage. I sit there motionless, with my hand frozen in space.",
     "note": null,
     "color": 1,
@@ -1318,6 +1310,686 @@
     "note": null,
     "color": 4,
     "createdDate": 786834108.472011
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This meant that a side effect of warm-bloodedness was that mammal brains could operate much faster than fish or reptile brains. This made it possible to perform substantially more complex computations. This is why reptiles, despite their long-range vision on land, were never endowed with the gift of simulating. The only nonmammals that have shown evidence of the ability to simulate actions and plan are birds. And birds are, conspicuously, the only nonmammal species alive today that independently evolved warm-bloodedness.\n",
+    "note": null,
+    "color": 2,
+    "createdDate": 786999361.463758
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "But despite the small size of the neocortex in early mammals, it was still the kernel from which human intelligence would arise. In the human brain, the neocortex takes up 70 percent of brain volume. In the breakthroughs that followed, this originally small structure would progressively expand from a clever trick to the epicenter of intelligence.",
+    "note": null,
+    "color": 2,
+    "createdDate": 786999521.370335
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "These three facts—vertically aligned activity, vertically aligned connectivity, and observed similarity between all areas of neocortex—led Mountcastle to a remarkable conclusion: the neocortex was made up of a repeating and duplicated microcircuit, what he called the neocortical column. The cortical sheet was just a bunch of neocortical columns packed densely together.",
+    "note": null,
+    "color": 2,
+    "createdDate": 786999683.06226
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The human neocortex is made up of over ten billion neurons and trillions of connections; it is a hopeless endeavor to try and decode the algorithms and computations performed by such an astronomically massive hairball of neurons. So hopeless that many neuroscientists believe that attempting to decode how the neocortex works is a fruitless endeavor, doomed to fail.",
+    "note": null,
+    "color": 2,
+    "createdDate": 786999801.663726
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "But Helmholtz suggested that human perception was doing something more than this. He suggested that instead of simply clustering incoming input patterns based on their correlations, human perception might optimize for the accuracy with which the inner simulated reality predicts the current external sensory input.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787000413.708851
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The Helmholtz machine was, in principle, similar to other neural networks; it received inputs that flowed from one end to the other. But unlike other neural networks, it also had backward connections that flowed the opposite way—from the end to the beginning.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787000456.947711
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Hinton designed this network to learn with two separate modes: recognition mode and generative mode. When in recognition mode, information flows up the network (starting from an input picture of a 7 to some neurons at the top), and the backward weights are nudged to make the neurons activated at the top of the network better reproduce the input sensory data (make a good simulated 7). In contrast, when in generative mode, information flows down the network (starting from the goal to produce an imagined picture of a 7), and the forward weights are nudged so that the neurons activated at the bottom of the network are correctly recognized at the top (“I recognize what I just made as a 7”).",
+    "note": "huh? confused? I need a visual representation!",
+    "color": 2,
+    "createdDate": 787000619.716397
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This might not seem particularly impressive. You gave a network a picture of a number, and it spit out a picture of that same number—what’s the big deal? There are three attributes of this network that are groundbreaking. First, the top of this network now reliably “recognizes” imperfectly handwritten letters without any supervision.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787000695.540656
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Second, it generalizes impressively well; it can tell that two differently handwritten pictures of 7s are both a 7—they will activate a similar set of neurons at the top of the network.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787000702.932467
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "third, and most important, this network can now generate novel pictures of handwritten numbers.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787000709.771954
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Helmholtz suggested that much of human perception is a process of inference—a process of using a generative model to match an inner simulation of the world to the sensory evidence presented.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787000800.658961
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Evidence for this is seen in filling-in, one-at-a-time, can’t-unsee visual illusions; evidence is seen in the wiring of the neocortex itself, which has been shown to have many properties consistent with a generative model; and evidence is seen in the surprising symmetry—the ironclad inseparability—between perception and imagination that is found in both generative models and the neocortex.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787001084.502873
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "You would think that when someone’s eyes are disconnected from their brain, they would no longer see. But the opposite happens—for several months after going blind, people start seeing a lot. They begin to hallucinate. This phenomenon is consistent with a generative model: cutting off sensory input to the neocortex makes it unstable. It gets stuck in a drifting generative process in which visual scenes are simulated without being constrained to actual sensory input—thus you hallucinate.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787001155.292515
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "If we are deprived of sleep, this imbalance of too much recognition and not enough generation eventually becomes so severe that the generative model in the neocortex becomes unstable.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787011517.928254
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Your neocortex is running a simulation of you walking, and if the simulation is consistent with sensor data, you don’t notice it, but if its predictions are wrong, you do.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787011804.98867
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "If reflex circuits are reflex-prediction machines, and the critic in the basal ganglia is a reward-prediction machine, then the neocortex is a world-prediction machine—designed to reconstruct the entire three-dimensional world around an animal to predict exactly what will happen next as animals and things in their surrounding world move.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787011862.776014
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This was the gift the neocortex gave to early mammals. It was imagination—the ability to render future possibilities and relive past events—that was the third breakthrough in the evolution of human intelligence.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787012043.541572
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "In early vertebrates, the evolution of temporal difference learning enabled the basal ganglia to assign credit using changes in future predicted reward; when the critic thinks the situation just got better or worse is when cues or actions are given credit. But in early mammals, with their ability to simulate alternative pasts, credit could also be assigned with the counterfactual. By asking “Would I have lost the game had I not made this move?,” mammals can determine whether a move truly deserves credit for winning the game.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787013012.611109
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "But here is the weird thing—we don’t truly remember episodic events. The process of episodic remembering is one of simulating an approximate re-creation of the past. When imagining future events, you are simulating a future reality; when remembering past events, you are simulating a past reality. Both are simulations.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787013762.708545
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The distinction between a made-up imagined scene and an actual episodic memory is thin in the neocortex; studies show that repeatedly imagining a past event that did not occur falsely increases a person’s confidence that the event did occur.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787013828.192324
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This dynamic provided a new solution to the catastrophic forgetting problem, whereby neural networks forget old patterns when they learn new ones. By retrieving and replaying recent memories alongside old memories, the hippocampus aids the neocortex in incorporating new memories without disrupting old ones.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787014047.509523
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "There is another category of reinforcement learning called model-based reinforcement learning. These systems must learn something more complicated: a model of how their actions affect the world.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787014150.213291
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Doing this, of course, comes with the search problem; even armed with Google’s supercomputers, it would take well over a million years to simulate every possible future move from an arbitrary board position in Go. And yet AlphaZero ran these simulations within half a second. How? It didn’t simulate the trillions of possible futures; it simulated only a thousand futures. In other words, it prioritized.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787014410.87239
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "in temporal difference learning an actor learns to predict the best next move based on a hunch about the board position, doing so without any planning. AlphaZero simply expanded on this architecture. Instead of picking the single move its actor believed was the best next move, it picked multiple top moves that its actor believed were the best.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787146066.827904
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Instead of just assuming its actor was correct (which it would not always be), AlphaZero used search to verify the actor’s hunches. AlphaZero was effectively saying to the actor, “Okay, if you think move A is the best move, let’s see how the game would play out if we did move A.” And AlphaZero then also explored other hunches of the actor, considering the second and third best moves the actor was suggesting (saying to the actor, “Okay, but if you didn’t take move A, what would your next best hunch be? Maybe move B will turn out even better than you think”).",
+    "note": null,
+    "color": 1,
+    "createdDate": 787146090.927364
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Dickinson had discovered habits. By engaging in the behavior five hundred times, rats had developed an automated motor response that was triggered by a sensory cue and completely detached from the higher-level goal of the behavior.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787417372.461457
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "the duality is the same: Humans and, indeed, all mammals (and some other animals that independently evolved simulation) sometimes pause to simulate their options (model-based, goal-driven, system 2) and sometimes act automatically (model-free, habitual, system 1).",
+    "note": null,
+    "color": 2,
+    "createdDate": 787417500.38473
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Brains attempt to intelligently select when to do each, but brains do not always make this",
+    "note": null,
+    "color": 2,
+    "createdDate": 787417539.160727
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "decision correctly, and this is the origin of many of our irrational behaviors.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787417544.484463
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This is important: The basal ganglia has no intent or goals. A model-free reinforcement learning system like the basal ganglia is intent-free; it is a system that simply learns to repeat behaviors that have previously been reinforced.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787417627.229012
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The sensory cortex engages in passive inference—merely explaining and predicting sensory input. The aPFC engages in active inference—explaining one’s own behavior and then using its predictions to actively change that behavior.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787417775.792274
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": " The aPFC’s triggering of simulation is called imagination when it is unconstrained by current sensory input and attention when it is constrained by current sensory input.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787418200.559493
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Controlling ongoing behavior often also requires working memory—the maintenance of representations in the absence of any sensory cues. Many imagined paths and tasks involve waiting.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787418302.453029
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Working memory—holding something in your head—is just your aPFC trying to keep re-invoking an inner simulation until you no longer need it.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787418334.421772
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Planning, attention, and working memory are all controlled by the aPFC because all three are, in principle, the same thing. They are all different manifestations of brains trying to select what simulation to render. How does the aPFC “control” behavior? The idea presented here is that it doesn’t control behavior per se; it tries to convince the basal ganglia of the right choice by vicariously showing it that one choice is better and by filtering what information makes it to the basal ganglia. The aPFC controls behavior not by telling but by showing.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787418636.15436
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "In humans there is plenty of evidence that the premotor and motor cortices are activated both by doing movements and by imagining movements:",
+    "note": null,
+    "color": 2,
+    "createdDate": 787419305.570696
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Mental rehearsal of motor skills substantially increases performance across speaking, golf swings, and even surgical maneuvers.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787419348.288488
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "These simulations enabled early mammals to engage in counterfactual learning, thereby offering a more advanced solution to the credit assignment problem—enabling mammals to assign credit based on causal relationships.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787419925.222605
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Most vertebrates at the time, as with modern lizards and fish, could still move quickly, remember patterns, track the passage of time, and intelligently learn through model-free reinforcement learning, but their movements were not planned.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787420051.005179
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "And so, thinking itself was born not within the clay creatures of Prometheus’s divine workshop, but instead in the small underground tunnels and knotted trees of a Jurassic Earth, birthed from the crucible of a hundred million years of dinosaur predation and our ancestor’s desperate attempt to avoid fading into extinction.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787420062.605627
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This was no storm on the horizon—this was space dust. Just a few minutes prior, on the other side of the planet, an asteroid a few miles wide had slammed into the Earth. It had sent up gargantuan chunks of earth debris that was rapidly filling the skies with dark soot—a blackness that would block out the sun for over one hundred years, killing over 70 percent of land-living vertebrates. This was the Permian-Triassic extinction.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787420360.728287
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "How is the hierarchy decided in these social groups? It’s simple—the strongest, biggest, and toughest become dominant. The locking of horns and baring of teeth are all designed to demonstrate who would win in a fight while avoiding the fight itself.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787615321.307947
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Monkey politics happens in the dynamics of these allyships, which are forged not through fixed familial relationships but grooming and supporting others in conflicts",
+    "note": null,
+    "color": 3,
+    "createdDate": 787616079.801561
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "so when seeking to climb the social hierarchy, these primates had a new evolutionary option: instead of spending energy evolving bigger muscles to fight their way to the top, they could spend energy evolving bigger brains to politick their way to the top.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787616370.319156
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "So might it be the case that the surprising smarts of primates, with all their theory of mind, politicking, and trickery, was a consequence of nothing more than brain scaling?",
+    "note": "Scaling laws. More compute.",
+    "color": 1,
+    "createdDate": 787656042.090087
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The granular prefrontal cortex becomes uniquely active during tasks that require self-reference, such as evaluating your own personality traits, general self-related mind wandering, considering your own feelings, thinking about your own intentions, and thinking about yourself in general.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787656231.285973
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Let’s use a thought experiment to build some intuition about what this means. Suppose you put our ancestral primate in a maze. When it reached a choice point, it turned left. Suppose you could ask its different brain areas why the animal turned left. You would get very different answers at each level of abstraction. Reflexes would say, Because I have an evolutionarily hard-coded rule to turn toward the smell coming from the left. Vertebrate structures would say, Because going left maximizes predicted future reward. Mammalian structures would say, Because left leads to food. But primate structures would say, Because I’m hungry, eating feels good when I am hungry, and to the best of my knowledge, going left leads to food.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787656549.133867
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Modeling your own mind and that of others is interwoven.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787658099.713431
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Unlike the intellectual abilities that had emerged in the breakthroughs prior, theory of mind was not born from the need to survive the dangers of hungry predators or inaccessible prey, but instead from the subtler and far more cutting dangers of politics.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787672315.215875
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "In other words, the neurons in the premotor and motor areas of a monkey’s neocortex—those that control a monkey’s own movements—not only activated when they performed those specific fine motor skills, but also when they merely watched others perform them. Rizzolatti called these “mirror neurons.”",
+    "note": null,
+    "color": 1,
+    "createdDate": 787672568.415539
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The ability to use tools is less about ingenuity and more about transmissibility",
+    "note": null,
+    "color": 1,
+    "createdDate": 787680429.110612
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Teaching is possible only with theory of mind. Teaching requires understanding what another mind does not know and what demonstrations would help manipulate another mind’s knowledge in the correct way.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787680715.952771
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Understanding the intentions of movements is essential for observational learning to work; it enables us to filter out extraneous movements and extract the essence of a skill.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787680898.773257
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The second approach to imitation learning in robotics is called “inverse reinforcement learning.” Instead of trying to directly copy the driving decisions that a human makes in response to a picture of the road, what if an AI system first attempts to identify the intent of the human’s driving decisions?",
+    "note": null,
+    "color": 1,
+    "createdDate": 787681062.470867
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Ng and his team recorded human expert inputs to the remote control as they performed these acrobatic tricks. But instead of training the AI system to directly copy the human experts (which didn’t work), they trained the AI system to first infer the intended trajectories of the experts, inferring what it seemed like the humans were trying to do, and then the AI system learned to pursue those intended trajectories. This technique is called “inverse reinforcement learning” because these systems first try to learn the reward function they believe the skilled expert is optimizing for (i.e., their “intent”), and then these systems learn by trial and error, rewarding and punishing themselves using this inferred reward function",
+    "note": null,
+    "color": 1,
+    "createdDate": 787681124.130595
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "It is unlikely a coincidence that both the ingenuity of roboticists and the iteration of evolution both converged on similar solutions; a novice cannot reliably acquire a new motor skill by merely observing an expert’s movements, novices must also peer into an expert’s mind.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787681222.700007
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The ecological-brain hypothesis argues that it was the frugivore diet of early primates that drove the rapid expansion of their brains.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787681558.75351
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Squirrel monkeys are capable of resisting the temptation to have treats now, in anticipation of something—water—that they don’t even want yet. In other words, monkeys can make a decision in anticipation of a future need. In contrast, rats were entirely unable to do this—they stuck with the flawed logic of “why give up extra raisins for water, I’m not even thirsty!”*",
+    "note": null,
+    "color": 1,
+    "createdDate": 787681688.839952
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The ability to anticipate future needs would have offered numerous benefits to our ancestral frugivores. It would have enabled our ancestors to plan their foraging routes long in advance, thereby ensuring they were the first to get newly ripened fruits. Our ability to make decisions today for faraway, abstract, and not-yet-existent goals was inherited from tree faring primates. A trick that, perhaps, was first used for getting the first pick of fruits, but today, in humans, is used for far greater purposes. It laid the foundation for our ability to make long term plans over vast stretches of time.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787681910.652751
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This makes the interpretation of theory of mind, imitation learning, and anticipation of future needs as nothing more than an emergent property of a second-order generative model a nice proposal—all three abilities can emerge from nothing more than new applications of neocortex.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787682032.77752
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The pressures of both frugivorism and social hierarchies may have converged to produce continual evolutionary pressure to develop and elaborate brain regions—such as the gPFC—for modeling your own mind.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787682065.594159
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Darwin believed that “the difference in mind between man and the higher animals, great as it is, is certainly one of degree and not of kind.”",
+    "note": null,
+    "color": 1,
+    "createdDate": 787682307.83071
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "there is no neurological structure found in the human brain that is not also found in the brain of our fellow apes, and evidence suggests that the human brain is literally just a scaled-up primate brain: a bigger neocortex, a bigger basal ganglia, but still containing all the same areas wired in all the same ways",
+    "note": null,
+    "color": 1,
+    "createdDate": 787682349.6443
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": " Concepts, ideas, and thoughts, just like episodic memories and plans, are not unique to humans. What is unique is our ability to deliberately transfer these inner simulations to each other, a trick possible only because of language.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787683076.6544
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Just as genes persist by hopping from parent cell to offspring cell, ideas persist by hopping from brain to brain, from generation to generation. And as with genes, this hopping is not uniform but operates under its own quasi-evolutionary rules—there is a continual selecting of good ideas and pruning of bad ideas. Ideas that helped humans survive persisted, while those that did not perished.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787683477.003084
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This analogy of ideas evolving was proposed by Richard Dawkins in his famous book The Selfish Gene. He called these hopping ideas memes. This word was later appropriated for cat images and baby photos flying around Twitter, but he originally meant them to refer to an idea or behavior that spread from person to person in a culture.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787683537.064677
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Compared to silent imitation of experts, communicating how to do a task using language dramatically improves the accuracy and speed with which children solve tasks. Language lets us condense information so it takes up less brain space and can be more quickly transferred from brain to brain",
+    "note": null,
+    "color": 1,
+    "createdDate": 787683877.001535
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": " Without language, the inner simulations of chimpanzees and other animals do not accumulate, and thus inventions that are above a given threshold of complexity—the best ones—are forever out of their reach.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787683934.013742
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Going from no accumulation across generations to some accumulation across generations was the subtle discontinuity that changed everything",
+    "note": null,
+    "color": 1,
+    "createdDate": 787684352.122129
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The real reason why humans are unique is that we accumulate our shared simulations (ideas, knowledge, concepts, thoughts) across generations. We are the hive-brain apes.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787685006.593762
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This suggests that language is not an inevitable consequence of having more neocortex. It is not something humans got “for free” by virtue of scaling up a chimpanzee brain. Language is a specific and independent skill that evolution wove into our brains.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787685721.465728
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "A skill as sophisticated as flying is too information-dense to hard-code directly into a genome. It is more efficient to encode a generic learning system (such as a cortex) and a specific hardwired learning curriculum (instinct to want to jump, instinct to flap wings, and instinct to attempt to glide).",
+    "note": null,
+    "color": 1,
+    "createdDate": 787686291.391647
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The curriculum used to train a model is as crucial as the model itself.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787686524.134029
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "So we don’t realize it, but when we happily go back and forth making incoherent babbles with babies (proto-conversations), when we pass objects back and forth and smile (joint attention), and when we pose and answer even nonsensical questions from infants, we are unknowingly executing an evolutionarily hard-coded learning program designed to give human infants the gift of language.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787686957.271465
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Here is the point: There is no language organ in the human brain, just as there is no flight organ in the bird brain. Asking where language lives in the brain may be as silly as asking where playing baseball or playing guitar lives in the brain. Such complex skills are not localized to a specific area; they emerge from a complex interplay of many areas. What makes these skills possible is not a single region that executes them but a curriculum that forces a complex network of regions to work together to learn them.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787687021.13677
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "This is also why apes can learn the basics of language. The ape neocortex is eminently capable of it. Apes struggle to become sophisticated at it merely because they don’t have the required instincts to learn it. It is hard to get chimps to engage in joint attention; it is hard to get them to take turns; and they have no instinct to share their thoughts or ask questions.",
+    "note": null,
+    "color": 1,
+    "createdDate": 787687171.469971
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Humans are born not when they are ready to be born, but when their brains hit the maximum size that can fit through the birth canal.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787746830.118808
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "One theory is that menopause evolved to push grandmothers to shift their focus from rearing their own children to supporting their children’s children.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787746933.047108
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "A behavior is altruistic if it decreases an individual’s reproductive fitness but increases another’s reproductive fitness.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787747250.994545
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The key point: The use of language for gossip plus the punishment of moral violators’ makes it possible to evolve high levels of altruism.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787748142.181516
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "The foundation of language learning is not sequence learning but the tethering of symbols to components of a child’s already present inner simulation.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787749101.114166
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "OpenAI did not add an inner world model or the ability to model the mind of others. Instead, in response to GPT-3’s frequent mistakes on commonsense and reasoning questions, OpenAI began training GPT-4 specifically on questions of commonsense and reasoning. They used a technique called “reinforcement learning from human feedback” in which humans punished GPT-4 when it answered questions incorrectly, and rewarded it when it answered correctly.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787749463.597384
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "LLMs have been able to tease out aspects of a world they have never seen or heard, that they have never touched or experienced, by merely scanning the entire corpus of our uniquely human code for transferring thoughts.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787749686.668315
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "In the human brain, language is the window to our inner simulation. Language is the interface to our mental world. And language is built on the foundation of our ability to model and reason about the minds of others—to infer what they mean and figure out exactly which words will produce the desired simulation in their mind.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787749718.717897
+  },
+  {
+    "bookTitle": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "highlight": "Breakthrough #1 was steering: the breakthrough of navigating by categorizing stimuli into good and bad, and turning toward good things and away from bad things.",
+    "note": null,
+    "color": 2,
+    "createdDate": 787750058.565437
   },
   {
     "bookTitle": "Chip War",
